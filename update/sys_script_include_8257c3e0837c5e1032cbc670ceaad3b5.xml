@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_58872_needit.CompanyComputer </api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Shows only Companies with Computers</description>
+        <mobile_callable>false</mobile_callable>
+        <name>CompanyComputer </name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CompanyComputer  = Class.create();
+CompanyComputer.prototype = {
+	initialize: function() {
+	},
+
+	companyName: function()
+	{
+		var gr = new GlideRecord('core_company');
+		var grSQ = gr.addJoinQuery('cmdb_hardware_product_model');
+		grSQ.addCondition('cmdb_model_category', '81feb9c137101000deeabfc8bcbe5dc4');
+		gr.query();
+		var gp = ' ';
+		while(gr.next())
+		{
+			gs.info(gr.getValue('name'));
+			gp += (',' + gr.sys_id);
+		}
+		gs.addInfoMessage(gp);
+		return 'sys_idIN' + gp;
+	},
+
+	type: 'CompanyComputer'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 11:17:49</sys_created_on>
+        <sys_id>8257c3e0837c5e1032cbc670ceaad3b5</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>CompanyComputer </sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_8257c3e0837c5e1032cbc670ceaad3b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-20 12:18:38</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8257c3e0837c5e1032cbc670ceaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 11:17:49</sys_created_on>
+        <sys_id>14488fa4837c5e1032cbc670ceaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 11:17:49</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

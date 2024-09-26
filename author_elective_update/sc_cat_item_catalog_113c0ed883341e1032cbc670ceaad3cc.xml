@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Computer Request">ebeb86d883341e1032cbc670ceaad302</sc_cat_item>
+        <sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:59</sys_created_on>
+        <sys_id>113c0ed883341e1032cbc670ceaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Computer Request</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_113c0ed883341e1032cbc670ceaad3cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:59</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3c6afa31eb6852d4e483f459bad0cd12</instance_id>
+        <instance_name>dev288519</instance_name>
+        <name>sc_cat_item_catalog_113c0ed883341e1032cbc670ceaad3cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Computer Request">ebeb86d883341e1032cbc670ceaad302</sc_cat_item><sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-18 12:16:59</sys_created_on><sys_id>113c0ed883341e1032cbc670ceaad3cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technical Catalog.Computer Request</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_catalog_113c0ed883341e1032cbc670ceaad3cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-18 12:16:59</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-65944139</payload_hash>
+        <record_name>Technical Catalog.Computer Request</record_name>
+        <reverted_from/>
+        <source>ffdbe24a8324521032cbc670ceaad3e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:59</sys_created_on>
+        <sys_id>d53c0ed883341e1032cbc670ceaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19205107b880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:59</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>193c0ed872341e107a186f9f5d034dce</update_guid>
+        <update_guid_history>193c0ed872341e107a186f9f5d034dce:-65944139</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Technical Catalog.Computer Request">23cc4a1c83341e1032cbc670ceaad39f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:19:36</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>03276d8f20ed47348a38e1b0f10637e1</sys_id>
+        <sys_metadata>113c0ed883341e1032cbc670ceaad3cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Computer Request</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Computer Request">ebeb86d883341e1032cbc670ceaad302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_113c0ed883341e1032cbc670ceaad3cc</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_113c0ed883341e1032cbc670ceaad3cc">d53c0ed883341e1032cbc670ceaad3cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:19:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

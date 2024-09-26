@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Computer Request">ebeb86d883341e1032cbc670ceaad302</sc_cat_item>
+        <sc_category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:19:36</sys_created_on>
+        <sys_id>33cc4a1c83341e1032cbc670ceaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.Computer Request</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_category_33cc4a1c83341e1032cbc670ceaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:19:36</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3c6afa31eb6852d4e483f459bad0cd12</instance_id>
+        <instance_name>dev288519</instance_name>
+        <name>sc_cat_item_category_33cc4a1c83341e1032cbc670ceaad3cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Computer Request">ebeb86d883341e1032cbc670ceaad302</sc_cat_item><sc_category display_value="Laptops">59f586f23731300054b6a3549dbe5db7</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-18 12:19:36</sys_created_on><sys_id>33cc4a1c83341e1032cbc670ceaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Laptops.Computer Request</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_category_33cc4a1c83341e1032cbc670ceaad3cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-18 12:19:36</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2023139701</payload_hash>
+        <record_name>Laptops.Computer Request</record_name>
+        <reverted_from/>
+        <source>ffdbe24a8324521032cbc670ceaad3e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:19:36</sys_created_on>
+        <sys_id>3bcc4a1c83341e1032cbc670ceaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1920512e2740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:19:36</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>7bcc4a1c8e341e10b883ecfb32e860d2</update_guid>
+        <update_guid_history>7bcc4a1c8e341e10b883ecfb32e860d2:2023139701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptops.Computer Request">a3fc4e1c83341e1032cbc670ceaad394</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:20:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>07123161374a4f9f8e0d8de85f54b721</sys_id>
+        <sys_metadata>33cc4a1c83341e1032cbc670ceaad3cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptops.Computer Request</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_33cc4a1c83341e1032cbc670ceaad3cf</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_33cc4a1c83341e1032cbc670ceaad3cf">3bcc4a1c83341e1032cbc670ceaad3d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:20:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
